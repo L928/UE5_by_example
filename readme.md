@@ -18,7 +18,7 @@ I share this here with you, in case you like the idea, it may be useful to you, 
 Who knows, maybe it can evolve into a nice place for UE5 text tutorials.
 
 #  Problems with video tutorials
-For video tutorial creators, I name the prblems I see, it's all personal, no offence, you do a
+For video tutorial creators, I name the problems I see, it's all personal, no offence, you do a
 great job. It could just be so much better in some cases, and even without effort, just
 by paying attention, and sometimes even with LESS effort. So here ar the major problems I see,
 in order of severity ( please don't get upset ) **Just my personal opinion** :
@@ -61,7 +61,7 @@ on a fine grain, if the video is > 30 min. Also, sometimes the stream is broken 
 after doing this. In short: The pace can't be adjusted to the audience. Everyone has a
 different speed, this is disregarded.
 
-##  no structure, just detail problem
+##  No structure, just detail problem
 
 Many vieos of the type "how to do xy" are > 30 mins, even > 60 often, and have
 detail, detail, detail, click here, do this, switch over here, ... and no structure
@@ -105,8 +105,19 @@ audience. And this is more time wasted as the audience grows.
 
 So, that's it. That brought me to create this project.
 
+#  Usage / contribution
 
+Each example should have it's own branch, so that all changes of the example can be seen
+bu comparing the branch root to the branch tip.
+Each example branch should merge back to master. If an example is improved, that should be
+a NEW BRANCH, to keep the original example seperated from the improvement.
 
+Each example must have a unique name that is then used as file name, folder name, and git
+branch name.
+
+Each example should have a sub-folder in the assets and sources, and under docs/examples.
+
+To contribute, just fork, branch, pull request, and follow the above.
 
 
 
